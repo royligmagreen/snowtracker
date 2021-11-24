@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Ponzi Alert</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <h3> Made by <a href="https://twitter.com/notroygreen">@notroygreen</a>.
+        Special thanks to <a href="https://twitter.com/SaaSCapo"> @SaasCapo</a> and <a
+            href="https://twitter.com/spuro69">@Spuro69</a> for
+        input.</h3>
+    <h2>0x4855eb94E878e6d1b4dE31144eEE25FbeA3E8F26 if you want to tip me :)</h2><br /><br /><br />
+    <img src="snowdog-image.svg" title="we are not associated with SnowDog in any way." />
+    <!-- <table>
+        <tr>
+
+        </tr>
+        <tr>
+            <td>
+                <h2 style="margin-top: 15px;">Enter your key here:</h2>
+            </td>
+            <td><input id="inputKey" type="text" /> </td>
+            <td>
+                <button id="submitKey" onclick="submitApiKey()">Enter Snowtrace API Key</button>
+            </td>
+        </tr>
+    </table> -->
+
+    <!-- <h1>ENTER SNOWTRACE API KEY. HIT SUBMIT. AND THEN WAIT FOR THE SELL ALARM. <br><br>YOU'LL KNOW IT WHEN YOU HEAR
+        IT.</h1> -->
+    <h2>Click anywhere on the screen and balances will begin updating after one second. Then wait for the audio
+        alarm. <br>When the alarm goes off, that means sell. <br>YOU'LL KNOW IT WHEN YOU HEAR
+        IT.</h2>
+    <br><br>
+    <audio id="myAudio">
+        <source src="alarm.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+    <div id="container-balances">
+        <h1>THE FOLLOWING TRADER JOE LIQUIDITY POOL BALANCES WILL UPDATE AUTOMATICALLY.<br /> ONCE NUMBER GO UP A LOT,
+            TIME TO
+            SELL, BUDDY!
+        </h1>
+        <table>
+            <tr>
+                <td>
+                    <h2>MIM Balance:</h2>
+                </td>
+                <td>
+                    <h2 id="mimBalance">0</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>WAVAX Balance:</h2>
+                </td>
+                <td>
+                    <h2 id="wavaxBalance">0</h2>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h3> Made by <a href="https://twitter.com/notroygreen">@notroygreen</a>.
+        Special thanks to <a href="https://twitter.com/SaaSCapo"> @SaasCapo</a> and <a
+            href="https://twitter.com/spuro69">@Spuro69</a> for
+        input.</h3>
+</body>
+
+</html>
